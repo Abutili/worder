@@ -1,0 +1,36 @@
+# top level values
+app_name = "worder"
+version = "0.0.1"
+debug_mode = false
+
+# Run time configuration
+run_dir = "./run"
+
+
+# Define some remote dictionaries
+[[dictionaries]]
+Name = "redbo-scrabble"
+Url = "https://raw.githubusercontent.com/redbo/scrabble/master/dictionary.txt"
+Dest = "./run/source/redbo-scrabble-dict.txt"
+
+[[dictionaries]]
+Name = "collins-scrabble-2015"
+Url = "https://drive.google.com/open?id=1oGDf1wjWp5RF_X9C7HoedhIWMh5uJs8s"
+Dest = "collins-scrabble-2019.txt"
+
+[[dictionaries]]
+Name = "Collins-scrabble-words-2015"
+Url = "https://drive.google.com/open?id=0B9-WNydZzCHrdDVEc09CamJOZHc"
+Dest = "collins-scrabble-2015.txt"
+
+[[dictionaries]]
+Name = "Europe Scrabble Word List"
+Url = "https://www.wordgamedictionary.com/sowpods/download/sowpods.txt"
+
+[[dictionaries]]
+Name = "US Srabble Word List"
+Url = "http://www.wordgamedictionary.com/twl06/download/twl06.txt"
+
+[[dictionaries]]
+Name = "wordgamedictionary-english"
+Url = "http://www.wordgamedictionary.com/english-word-list/download/english.txt"
