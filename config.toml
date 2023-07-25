@@ -12,25 +12,27 @@ run_dir = "./run"
 Name = "redbo-scrabble"
 Url = "https://raw.githubusercontent.com/redbo/scrabble/master/dictionary.txt"
 Dest = "./run/source/redbo-scrabble-dict.txt"
+#Dest = "./run/source/redbo-scrabble-dict_tiny.txt"
 
-[[dictionaries]]
-Name = "collins-scrabble-2015"
-Url = "https://drive.google.com/open?id=1oGDf1wjWp5RF_X9C7HoedhIWMh5uJs8s"
-Dest = "collins-scrabble-2019.txt"
+#[[dictionaries]]
+#Name = "collins-scrabble-2019"
+#Url = "https://drive.google.com/open?id=1oGDf1wjWp5RF_X9C7HoedhIWMh5uJs8s"
+##Url = "https://drive.google.com/file/d/1oGDf1wjWp5RF_X9C7HoedhIWMh5uJs8s/view"
+#Dest = "./run/source/collins-scrabble-2019.txt"
 
-[[dictionaries]]
-Name = "Collins-scrabble-words-2015"
-Url = "https://drive.google.com/open?id=0B9-WNydZzCHrdDVEc09CamJOZHc"
-Dest = "collins-scrabble-2015.txt"
+#[[dictionaries]]
+#Name = "Collins-scrabble-words-2015"
+#Url = "https://drive.google.com/open?id=0B9-WNydZzCHrdDVEc09CamJOZHc"
+#Dest = "./run/source/collins-scrabble-2015.txt"
 
-[[dictionaries]]
-Name = "Europe Scrabble Word List"
-Url = "https://www.wordgamedictionary.com/sowpods/download/sowpods.txt"
+#[[dictionaries]]
+#Name = "Europe Scrabble Word List"
+#Url = "https://www.wordgamedictionary.com/sowpods/download/sowpods.txt"
 
-[[dictionaries]]
-Name = "US Srabble Word List"
-Url = "http://www.wordgamedictionary.com/twl06/download/twl06.txt"
+#[[dictionaries]]
+#Name = "US Srabble Word List"
+#Url = "http://www.wordgamedictionary.com/twl06/download/twl06.txt"
 
-[[dictionaries]]
-Name = "wordgamedictionary-english"
-Url = "http://www.wordgamedictionary.com/english-word-list/download/english.txt"
+#[[dictionaries]]
+#Name = "wordgamedictionary-english"
+#Url = "http://www.wordgamedictionary.com/english-word-list/download/english.txt"
